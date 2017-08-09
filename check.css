@@ -132,12 +132,21 @@ padding: 20px;
 }
   .skills{
     border-right: 1.5px solid black;
-  line-height: 25;
+  line-height: 15;
 
   }
-  .skills-left{
+  .skills-left-inner{
+    font-size: 2em;
+    font-family: cursive;
+  }
+  .skills-right{
 
     padding: 20px;
+  }
+  .skills-right-text{
+
+    font-size: 1.4em;
+    color: gray;
   }
   .bars{
     padding: 20px;
@@ -145,3 +154,25 @@ padding: 20px;
   .inner-projects{
     padding: 20px;
   }
+  .contact-me-wrapper{
+
+    padding: 30px;
+  }
+  .contact-heading{
+    color: lightsteelblue;
+
+  }
+  .contact-inner{
+    padding: 20px;
+  }
+.icons{
+  padding: 20px;
+  color:greenyellow;
+  opacity: 0.7;
+  transition:opacity 1s ;
+}
+
+.icons:hover{
+
+  opacity: 1;
+}

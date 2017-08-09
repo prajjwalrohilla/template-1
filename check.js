@@ -37,7 +37,7 @@ $(document).scroll(function() {
       $('.inner-sec-wrapper').hide();
   }
 
-if (y > 500) {
+if (y > 1100) {
 
  $('.projects-wrapper').addClass('animated flipInY');
    $('.projects-wrapper').show();
