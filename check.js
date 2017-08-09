@@ -1,14 +1,19 @@
+$(window).on('load', function () {
 
+$('.second-sec').addClass('animated zoomIn');
+
+
+ });
 $(document).ready(function(){
  
-//$('.wrapper-top-layer').hide();
-  
-$('.second-sec').addClass('animated zoomIn');
+
+
+//$('.second-sec').addClass('animated zoomIn');
 
 
   $('.inner-sec-wrapper').hide();
  
-
+/*
   $('.ima').hover(function(){
   $('.second-sec').removeClass('animated zoomIn');
     $(this).addClass('animated hinge');
@@ -20,6 +25,8 @@ $('.second-sec').addClass('animated zoomIn');
           }
 
   );
+*/
+
 
 
 
@@ -52,19 +59,19 @@ if (y > 1100) {
 });
 
 
-
+/*
  setTimeout(function(){ 
 
 
   $('.second-sec').removeClass('animated zoomIn');
- /*
-   $('.wrapper-top-layer').addClass('animated zoomInRight');
-   $('.wrapper-top-layer').show();
-*/
+ 
  
 
 
   }, 1000);
+ */
+
+
 
 });
 
